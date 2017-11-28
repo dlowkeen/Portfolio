@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Container, Media } from 'reactstrap';
-import donovan from '../assets/images/donovan.jpg';
+import donovan from '../assets/images/dlow.jpeg';
 
 class AboutMe extends Component {
     render() {
         return (
-        <Container>
+        <Container className='section'>
             <Media>
               <Media left href="#">
                 <img src={donovan} alt="donovan" />

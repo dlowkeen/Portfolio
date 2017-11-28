@@ -15,7 +15,7 @@ import aldi from '../assets/images/aldi.png';
 
 const Projects = props => {
   return (
-    <Container>
+    <Container className='section'>
     <h1>Projects</h1>
       <CardDeck>
         <Card>
@@ -28,7 +28,9 @@ const Projects = props => {
               Watson's Personality Insights. Predict personality
               characteristics, needs and values through twitter feeds.
             </CardText>
-            <Button>View</Button>
+            <Button href='https://ucla-hackers.github.io/twitter-watson-personality-insights/'>
+              View
+            </Button>
           </CardBody>
         </Card>
         <Card>
