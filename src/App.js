@@ -5,6 +5,7 @@ import NavigationBar from './components/common/NavigationBar';
 import Landing from './components/Landing';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <NavigationBar />
         <Landing />
         <AboutMe />
+        <Projects />
         <Contact />
       </div>
     );
