@@ -32,7 +32,7 @@ class NavigationBar extends Component {
           <Navbar className="fixed-top" toggleable id="navigation">
             <NavbarToggler right onClick={this.toggle} />
             <NavbarBrand href="/" className="page-title">
-              Donovan Lowkeen
+              Home
             </NavbarBrand>
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
