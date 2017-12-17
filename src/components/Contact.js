@@ -4,7 +4,7 @@ import { Button, Form, FormGroup, Label, Input, Container } from "reactstrap";
 class Contact extends React.Component {
   render() {
     return (
-        <Container className='section'>
+        <Container className='section' id='contact'>
             <h1>Contact</h1>
             <Form>
                 <FormGroup>

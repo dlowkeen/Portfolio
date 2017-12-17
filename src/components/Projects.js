@@ -15,7 +15,7 @@ import aldi from '../assets/images/aldi.png';
 
 const Projects = props => {
   return (
-    <Container className='section'>
+    <Container className='section' id="projects">
     <h1>Projects</h1>
       <CardDeck>
         <Card>

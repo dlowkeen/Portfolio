@@ -5,7 +5,7 @@ import donovan from '../assets/images/dlow.jpeg';
 class AboutMe extends Component {
     render() {
         return (
-        <Container className='section'>
+        <Container className='section' id='aboutMe'>
             <Media>
               <Media left href="#">
                 <img src={donovan} alt="donovan" />
