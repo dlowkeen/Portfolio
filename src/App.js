@@ -6,6 +6,7 @@ import Landing from './components/Landing';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <AboutMe />
         <Projects />
         <Contact />
+        <Footer />
       </div>
     );
   }
