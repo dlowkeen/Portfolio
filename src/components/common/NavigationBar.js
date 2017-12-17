@@ -141,7 +141,7 @@ class NavigationBar extends Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="page-title" href="#skills">
+                  <NavLink className="page-title" href="#skills" onClick={this.handleSkillsClick}>
                     Skills
                   </NavLink>
                 </NavItem>
