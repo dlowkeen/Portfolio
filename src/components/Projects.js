@@ -13,6 +13,8 @@ import {
 import gift from '../assets/images/Gifts.jpg';
 import aldi from '../assets/images/aldi.png';
 import pirateShip from '../assets/images/pirate_ship.gif';
+import habittack from '../assets/images/habittack.jpg';
+import github from '../assets/images/github.svg';
 
 const Projects = props => {
   return <Container className="section" id="projects">
@@ -63,9 +65,51 @@ const Projects = props => {
           </CardBody>
         </Card>
       </CardDeck>
-      <Button style={styles.bigButtonStyle} href="https://github.com/dlowkeen">
+      <div>
+        <br />
+      </div>
+      <CardDeck>
+        <Card>
+          <CardImg top width="100%" src={habittack} alt="habittack logo" />
+          <CardBody>
+            <CardTitle>Habittack</CardTitle>
+            <CardSubtitle>iOS</CardSubtitle>
+            <CardText>
+              Mobile application that uses social accountability and
+              competition help you reach your goals and build new habits.
+            </CardText>
+            <Button href="https://www.kickstarter.com/projects/94978636/the-habittack">
+              View
+            </Button>
+          </CardBody>
+        </Card>
+        <Card>
+          <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Bamazon" />
+          <CardBody>
+            <CardTitle>Bamazon</CardTitle>
+            <CardSubtitle>Node.js, MySQL</CardSubtitle>
+            <CardText>
+              Inventory on hand tool that takes in orders from customers and
+              depletes stock on hand.
+            </CardText>
+            <Button href="https://github.com/dlowkeen/Amazon-CLI">
+              View
+            </Button>
+          </CardBody>
+        </Card>
+        <Card>
+          <CardImg top width="100%" src={github} alt="more projects" />
+          <CardBody>
+            <CardTitle>More Projects</CardTitle>
+            <CardSubtitle />
+            <CardText>View more projects on GitHub.</CardText>
+            <Button href="https://www.github.com/dlowkeen">View</Button>
+          </CardBody>
+        </Card>
+      </CardDeck>
+      {/* <Button style={styles.bigButtonStyle} href="https://github.com/dlowkeen">
         View More Projects
-      </Button>
+      </Button> */}
     </Container>;
 };
 
