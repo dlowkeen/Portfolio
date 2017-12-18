@@ -7,8 +7,6 @@ class Skills extends Component {
         return (
             <Container className='section' id="skills">
                 <h1>Skills</h1>
-                <p>JavaScript, JQeury, Node.js, Express, React.js
-                    React-Native, Firebase, MySQL, MongoDB, Git</p>
                 <SimpleSlider />
             </Container>
         );
