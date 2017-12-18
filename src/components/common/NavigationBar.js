@@ -125,6 +125,10 @@ class NavigationBar extends Component {
     smoothScroll.scrollTo("projects");
   };
 
+  handlePhotographyClick() {
+    smoothScroll.scrollTo("photography");
+  }
+
   render() {
     return <div className="smooth-scroll">
         <Container>
@@ -153,6 +157,11 @@ class NavigationBar extends Component {
                 <NavItem>
                   <NavLink className="page-title" href="#contact" onClick={this.handleContactClick}>
                     Contact
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink className="page-title" href="#photography" onClick={this.handlePhotographyClick}>
+                    Photography
                   </NavLink>
                 </NavItem>
               </Nav>
