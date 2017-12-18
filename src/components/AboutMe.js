@@ -4,8 +4,7 @@ import donovan from '../assets/images/dlow.jpeg';
 
 class AboutMe extends Component {
     render() {
-        return (
-        <Container className='section' id='aboutMe'>
+        return <Container className="section" id="aboutMe">
             <Media>
               <Media left href="#">
                 <img src={donovan} alt="donovan" />
@@ -13,12 +12,15 @@ class AboutMe extends Component {
               <Container>
                 <Media body>
                   <Media heading>Donovan Lowkeen</Media>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  My name is Donovan Lowkeen and I am an efficiency enthusiast and empathetic problem-solver. 
+                  I have been working for the past 3.5 years in executive retail management but have always 
+                  had a passion for innovating and solving problems. As an avid outdoorsman and high-altitude 
+                  mountaineer and climber, I am in constant search of the next big challenge. With programming,
+                  the challenges never end! 
                 </Media>
               </Container>
             </Media>
-          </Container>
-        );
+          </Container>;
     }
 }
 

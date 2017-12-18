@@ -164,6 +164,12 @@ class NavigationBar extends Component {
                     Photography
                   </NavLink>
                 </NavItem>
+                <NavItem>
+                  <NavLink className="page-title" href="https://vimeo.com/user45384519">
+                    Videos
+                  </NavLink>
+                </NavItem>
+                
               </Nav>
             </Collapse>
           </Navbar>
