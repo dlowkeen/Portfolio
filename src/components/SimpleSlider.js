@@ -34,16 +34,16 @@ class SimpleSlider extends React.Component {
             <img style={styles.imageStyle} src={node} />
           </div>
           <div style={styles.sliderStyle}>
-            <img style={styles.wideImgStyle} src={express} />
+            <img style={styles.expressStyle} src={express} />
           </div>
           <div style={styles.sliderStyle}>
             <img style={styles.imageStyle} src={react} />
           </div>
           <div style={styles.sliderStyle}>
-            <img style={styles.wideImgStyle} src={git} />
+            <img style={styles.gitStyle} src={git} />
           </div>
           <div style={styles.sliderStyle}>
-            <img style={styles.imageStyle} src={mysql} />
+            <img style={styles.MySQLStyle} src={mysql} />
           </div>
           <div style={styles.sliderStyle}>
             <img style={styles.wideImgStyle} src={firebase} />
@@ -66,8 +66,23 @@ const styles={
     width: 120
   },
   wideImgStyle: {
-    height: 120,
-    width: 250
+    height: 100,
+    width: 320,
+    paddingTop: 15
+  },
+  expressStyle: {
+    height: 100,
+    width: 250,
+    paddingTop: 25
+  },
+  gitStyle: {
+    height: 100,
+    width: 230,
+    paddingTop: 10
+  },
+  MySQLStyle: {
+    height: 100,
+    width: 190
   }
 }
 

@@ -10,7 +10,7 @@ class Landing extends Component {
                   <strong>Donovan Lowkeen</strong>
                 </h1>
                 <p className="page-title" id="landing-title">
-                  <strong>Web Developer</strong>
+                  <strong>Full-Stack Web Developer</strong>
                 </p>
               </Container>
             </div>
